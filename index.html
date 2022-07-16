@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bebc34094e.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+
+
+            background: maroon;
+
+        }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        .box1 {
+            background: orange;
+            border: 2px solid seagreen;
+            width: 150px;
+            height: 150px;
+            transition: width 2s, height 2s, transform 2s;
+
+
+        }
+
+        #hover:hover {
+            width: 100px;
+            height: 100px;
+            transform: rotate(-180deg);
+
+        }
+
+        /* #hover:hover {
+            transform: scale(2) rotate(50deg) translate(50px);
+        } */
+
+        .box2 {
+            background-color: lightgreen;
+            border: 2px solid mediumslateblue;
+            width: 150px;
+            height: 150px;
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+        .box3 {
+            background-color: chocolate;
+            border: 2px solid orchid;
+            width: 150px;
+            height: 150px;
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+        body {
+
+            padding: 100px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <div id="hover" class="box1">
+            <h1>box-11</h1>
+        </div>
+    </div>
+    <div class="box">
+        <div id="hover" class="box2">
+            <h1> box-21</h1>
+        </div>
+    </div>
+    <div class="box">
+        <div id="hover" class="box3">
+            <h1>box-31</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
